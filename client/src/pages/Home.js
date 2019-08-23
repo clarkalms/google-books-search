@@ -60,11 +60,11 @@ class Home extends Component {
             <Jumbotron>
             
               <h1 className="text-center"><i class="fab fa-bootstrap"></i><span className="oogle">OOGLE!</span></h1>
-             <h2 className="text-center">Find a book to add to your reading list!</h2> 
+             <h2 className="text-center">Looking for a book? Just Boogle it!</h2> 
             </Jumbotron>
           </Col>
           <Col size="md-12">
-            <Card title="Book Search">
+            <Card title="Boogle Search">
               <Form
                 handleInputChange={this.handleInputChange}
                 handleFormSubmit={this.handleFormSubmit}

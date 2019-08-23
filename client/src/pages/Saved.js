@@ -36,16 +36,14 @@ class Saved extends Component {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-              <h1 className="text-center">
-                <strong>Google Books Search & Save</strong>
-              </h1>
-              <h2 className="text-center">Search for a Book. Save for later.</h2>
+            <h1 className="text-center"><i class="fab fa-bootstrap"></i><span className="oogle">OOGLE!</span></h1>
+             <h2 className="text-center">Find a book to add to your reading list!</h2> 
             </Jumbotron>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <Card title="Saved Books" icon="download">
+            <Card title="Reading List">
               {this.state.books.length ? (
                 <List>
                   {this.state.books.map(book => (
@@ -62,14 +60,14 @@ class Saved extends Component {
                           onClick={() => this.handleBookDelete(book._id)}
                           className="btn btn-danger ml-2"
                         >
-                          Delete
+                          Delete Book
                         </button>
                       )}
                     />
                   ))}
                 </List>
               ) : (
-                <h2 className="text-center">No Books Saved</h2>
+                <h2 className="text-center">Add books to your reading list and see them here!</h2>
               )}
             </Card>
           </Col>
