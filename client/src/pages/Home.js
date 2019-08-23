@@ -12,7 +12,7 @@ class Home extends Component {
   state = {
     books: [],
     q: "",
-    message: "Search for a book"
+    message: ""
   };
 
   handleInputChange = event => {
@@ -59,12 +59,12 @@ class Home extends Component {
           <Col size="md-12">
             <Jumbotron>
             
-              <h1 className="text-center">Google Books Search & Save</h1>
-             <h2 className="text-center">Search for a Book. Save for later.</h2> 
+              <h1 className="text-center"><i class="fab fa-bootstrap"></i><span className="oogle">OOGLE!</span></h1>
+             <h2 className="text-center">Find a book to add to your reading list!</h2> 
             </Jumbotron>
           </Col>
           <Col size="md-12">
-            <Card title="Book Search" icon="far fa-book">
+            <Card title="Book Search">
               <Form
                 handleInputChange={this.handleInputChange}
                 handleFormSubmit={this.handleFormSubmit}

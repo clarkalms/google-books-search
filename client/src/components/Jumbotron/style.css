@@ -1,4 +1,19 @@
 .jumbotron {
-    font-family: Helvetica, sans-serif !important;
-    padding: 80px;
+  font-family: 'Lexend Deca', sans-serif !important;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: white;
   }
+
+  .jumbotron h2 {
+    font-family: 'Lexend Deca', sans-serif !important;
+  }
+
+ .jumbotron  .fab {
+  font-size: 50px;
+}
+
+.jumbotron .oogle {
+  font-family: 'Lexend Deca', sans-serif !important;
+  color: rgb(201, 1, 1);
+}

@@ -32,9 +32,10 @@ class Nav extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
+      <nav className="navbar navbar-expand-lg">
         <Link className="navbar-brand" to="/">
-          Home
+        <i className="fab fa-bootstrap"></i>
+          oogle!
         </Link>
         <button
           onClick={this.toggleNav}
@@ -55,8 +56,12 @@ class Nav extends Component {
                 className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
                 to="/"
               >
-                Search
+                <span className="nav-search">Search</span>
+                <span className="nav-books"> Books</span>
               </Link>
+            </li>
+            <li className="nav-item">
+              <span className="divider"> | </span>
             </li>
             <li className="nav-item">
               <Link
@@ -64,7 +69,7 @@ class Nav extends Component {
                 className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
                 to="/saved"
               >
-                Saved
+                <span className="nav-saved">Reading List</span>
               </Link>
             </li>
           </ul>

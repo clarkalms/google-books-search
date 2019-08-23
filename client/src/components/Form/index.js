@@ -21,7 +21,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
       <div className="pull-right">
         <button onClick= {handleFormSubmit}
         type="submit"
-        className="btn btn-lg btn-danger float-right">
+        className="btn btn-lg float-right btn-light">
           Search
         </button>
       </div>

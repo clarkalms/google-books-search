@@ -1,5 +1,26 @@
 .navbar {
-    border-radius: 0;
-    font-family: Helvetica, sans-serif !important;
+    border-bottom: 1px solid green;
+    font-family: 'Lexend Deca', sans-serif !important;
   }
-  
+  .fab {
+    color: green;
+    font-size: 30px;
+    margin-right: 3px;
+  }
+
+  .nav-search {
+    color: blue;
+  }
+  .nav-books {
+    color: blue;
+    margin-right: 20px;
+  }
+  .nav-saved {
+    color: gold;
+    margin-left: 20px;
+  }
+
+  .divider {
+    font-size: 27px;
+    color: gray;
+  }

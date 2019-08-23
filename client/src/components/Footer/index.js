@@ -5,7 +5,7 @@ function Footer() {
         <footer>
             <hr />
             <p className="text-center">
-                <i /> GBS&S built using React
+                <span>&copy; Clark Alms 2019</span>
             </p>
         </footer>
     );
